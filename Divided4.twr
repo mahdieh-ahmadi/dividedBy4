@@ -1,0 +1,86 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml Divided4.twx Divided4.ncd -o Divided4.twr Divided4.pcf
+
+Design file:              Divided4.ncd
+Physical constraint file: Divided4.pcf
+Device,package,speed:     xc6slx4,tqg144,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock CLKin
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+data_in<0>  |    4.753(R)|      SLOW  |   -2.500(R)|      FAST  |clk250            |   0.000|
+data_in<1>  |    4.423(R)|      SLOW  |   -2.246(R)|      FAST  |clk250            |   0.000|
+data_in<2>  |    4.897(R)|      SLOW  |   -2.601(R)|      FAST  |clk250            |   0.000|
+data_in<3>  |    4.430(R)|      SLOW  |   -2.279(R)|      FAST  |clk250            |   0.000|
+data_in<4>  |    3.812(R)|      SLOW  |   -1.849(R)|      FAST  |clk250            |   0.000|
+data_in<5>  |    3.829(R)|      SLOW  |   -1.883(R)|      FAST  |clk250            |   0.000|
+data_in<6>  |    4.026(R)|      SLOW  |   -1.990(R)|      FAST  |clk250            |   0.000|
+data_in<7>  |    3.992(R)|      SLOW  |   -1.979(R)|      FAST  |clk250            |   0.000|
+data_valid  |    6.090(R)|      SLOW  |   -2.816(R)|      FAST  |clk250            |   0.000|
+reset       |    4.356(R)|      SLOW  |   -2.532(R)|      FAST  |clk100            |   0.000|
+            |    4.549(R)|      SLOW  |   -2.352(R)|      FAST  |clk250            |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock CLKin to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+data_out<0> |         4.140(R)|      SLOW  |         2.022(R)|      FAST  |clk100            |   0.000|
+data_out<1> |         4.082(R)|      SLOW  |         2.011(R)|      FAST  |clk100            |   0.000|
+data_out<2> |         3.727(R)|      SLOW  |         1.760(R)|      FAST  |clk100            |   0.000|
+data_out<3> |         3.727(R)|      SLOW  |         1.760(R)|      FAST  |clk100            |   0.000|
+data_out<4> |         3.818(R)|      SLOW  |         1.835(R)|      FAST  |clk100            |   0.000|
+data_out<5> |         3.818(R)|      SLOW  |         1.835(R)|      FAST  |clk100            |   0.000|
+data_out<6> |         4.143(R)|      SLOW  |         2.056(R)|      FAST  |clk100            |   0.000|
+data_out<7> |         3.990(R)|      SLOW  |         1.977(R)|      FAST  |clk100            |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock CLKin
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLKin          |    3.796|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Tue Dec 01 21:24:11 2020 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4552 MB
+
+
+

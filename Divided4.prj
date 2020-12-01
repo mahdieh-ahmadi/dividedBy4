@@ -1,0 +1,3 @@
+verilog work "ipcore_dir/ClockGeneratore.v"
+verilog work "ipcore_dir/FIFO.v"
+verilog work "Divided4.v"

@@ -1,0 +1,140 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/university/3991/fpga/homeworks/dividedBy4
+T_opt
+!s110 1606844739
+V_^SB9I6MKTJT9?257fPCG3
+Z1 04 13 4 work test2Divided4 fast 0
+Z2 04 4 4 work glbl fast 0
+=1-c85b76f47ed2-5fc68142-39-28d0
+Z3 o-quiet -auto_acc_if_foreign -work work -L xilinxcorelib_ver -L unisims_ver -L unimacro_ver -L secureip +acc
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;10.5;63
+T_opt1
+!s110 1606842589
+VC>1BF;0VE_kWH?kEfcEd^1
+R1
+R2
+=1-c85b76f47ed2-5fc678dd-63-2f74
+R3
+R4
+n@_opt1
+R5
+R0
+vClockGeneratore
+!s110 1606844734
+!i10b 1
+!s100 JeXCVVS0=OInU9A4l=lH93
+IWE_I>HLd0_LB@9OXJCDH52
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1606838030
+8ipcore_dir/ClockGeneratore.v
+Fipcore_dir/ClockGeneratore.v
+L0 69
+Z7 OL;L;10.5;63
+r1
+!s85 0
+31
+!s108 1606844734.000000
+!s107 ipcore_dir/ClockGeneratore.v|
+!s90 -reportprogress|300|ipcore_dir/ClockGeneratore.v|
+!i113 0
+Z8 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+n@clock@generatore
+vDivided4
+Z9 !s110 1606844735
+!i10b 1
+!s100 <A1dEYz3fK>AIBazD0TmZ1
+II4>bF8XiHS5Xgg36zSCUF2
+R6
+R0
+w1606844651
+8Divided4.v
+FDivided4.v
+L0 21
+R7
+r1
+!s85 0
+31
+Z10 !s108 1606844735.000000
+!s107 Divided4.v|
+!s90 -reportprogress|300|Divided4.v|
+!i113 0
+R8
+R4
+n@divided4
+vFIFO
+R9
+!i10b 1
+!s100 @ADzL4<0jD2=C?aYlJZP?1
+IS?ZiYdf<fVSWb;90^_ddm0
+R6
+R0
+w1606843731
+8ipcore_dir/FIFO.v
+Fipcore_dir/FIFO.v
+L0 39
+R7
+r1
+!s85 0
+31
+R10
+!s107 ipcore_dir/FIFO.v|
+!s90 -reportprogress|300|ipcore_dir/FIFO.v|
+!i113 0
+R8
+R4
+n@f@i@f@o
+vglbl
+R9
+!i10b 1
+!s100 UlJ]9LUWO:ZWoRO62F9fW3
+INz3046GECC=X7FgQ2]FR>3
+R6
+R0
+w1381681120
+8C:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v
+FC:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v
+L0 5
+R7
+r1
+!s85 0
+31
+R10
+!s107 C:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v|
+!s90 -reportprogress|300|C:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v|
+!i113 0
+R8
+R4
+vtest2Divided4
+R9
+!i10b 1
+!s100 :jW0>CjgZ;5<E;M]Wn5OS0
+I87:S9D<1E9NaRT`UU[7KG0
+R6
+R0
+w1606840009
+8test2Divided4.v
+Ftest2Divided4.v
+L0 25
+R7
+r1
+!s85 0
+31
+R10
+!s107 test2Divided4.v|
+!s90 -reportprogress|300|test2Divided4.v|
+!i113 0
+R8
+R4
+ntest2@divided4

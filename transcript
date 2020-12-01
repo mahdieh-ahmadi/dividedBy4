@@ -1,0 +1,109 @@
+# Reading C:/modeltech64_10.5/tcl/vsim/pref.tcl
+# //  ModelSim SE-64 10.5 Feb 13 2016 
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do {test2Divided4.fdo}
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 21:15:34 on Dec 01,2020
+# vlog -reportprogress 300 ipcore_dir/ClockGeneratore.v 
+# -- Compiling module ClockGeneratore
+# 
+# Top level modules:
+# 	ClockGeneratore
+# End time: 21:15:35 on Dec 01,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 21:15:35 on Dec 01,2020
+# vlog -reportprogress 300 ipcore_dir/FIFO.v 
+# -- Compiling module FIFO
+# 
+# Top level modules:
+# 	FIFO
+# End time: 21:15:35 on Dec 01,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 21:15:35 on Dec 01,2020
+# vlog -reportprogress 300 Divided4.v 
+# -- Compiling module Divided4
+# 
+# Top level modules:
+# 	Divided4
+# End time: 21:15:35 on Dec 01,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 21:15:35 on Dec 01,2020
+# vlog -reportprogress 300 test2Divided4.v 
+# -- Compiling module test2Divided4
+# 
+# Top level modules:
+# 	test2Divided4
+# End time: 21:15:35 on Dec 01,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 21:15:35 on Dec 01,2020
+# vlog -reportprogress 300 C:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 21:15:35 on Dec 01,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -L xilinxcorelib_ver -L unisims_ver -L unimacro_ver -L secureip -lib work work.test2Divided4 glbl 
+# Start time: 21:15:35 on Dec 01,2020
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.test2Divided4(fast)
+# Loading work.Divided4(fast)
+# Loading work.ClockGeneratore(fast)
+# Loading unisims_ver.IBUFG(fast)
+# Loading unisims_ver.DCM_SP(fast)
+# Loading unisims_ver.dcm_sp_clock_divide_by_2(fast)
+# Loading unisims_ver.dcm_sp_maximum_period_check(fast)
+# Loading unisims_ver.dcm_sp_maximum_period_check(fast__1)
+# Loading unisims_ver.dcm_sp_clock_lost(fast)
+# Loading unisims_ver.BUFG(fast)
+# Loading work.FIFO(fast)
+# Loading xilinxcorelib_ver.FIFO_GENERATOR_V9_3(fast)
+# Loading xilinxcorelib_ver.FIFO_GENERATOR_V9_3_CONV_VER(fast)
+# Loading xilinxcorelib_ver.fifo_generator_v9_3_bhv_ver_as(fast)
+# Loading xilinxcorelib_ver.fifo_generator_v9_3_sync_stage(fast)
+# Loading work.glbl(fast)
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+run
+add wave -position insertpoint  \
+sim:/test2Divided4/uut/sum
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.test2Divided4(fast)
+# Loading work.Divided4(fast)
+# Loading work.ClockGeneratore(fast)
+# Loading unisims_ver.IBUFG(fast)
+# Loading unisims_ver.DCM_SP(fast)
+# Loading unisims_ver.dcm_sp_clock_divide_by_2(fast)
+# Loading unisims_ver.dcm_sp_maximum_period_check(fast)
+# Loading unisims_ver.dcm_sp_maximum_period_check(fast__1)
+# Loading unisims_ver.dcm_sp_clock_lost(fast)
+# Loading unisims_ver.BUFG(fast)
+# Loading work.FIFO(fast)
+# Loading xilinxcorelib_ver.FIFO_GENERATOR_V9_3(fast)
+# Loading xilinxcorelib_ver.FIFO_GENERATOR_V9_3_CONV_VER(fast)
+# Loading xilinxcorelib_ver.fifo_generator_v9_3_bhv_ver_as(fast)
+# Loading xilinxcorelib_ver.fifo_generator_v9_3_sync_stage(fast)
+# Loading work.glbl(fast)
+run
+# WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+# End time: 21:22:19 on Dec 01,2020, Elapsed time: 0:06:44
+# Errors: 0, Warnings: 0
